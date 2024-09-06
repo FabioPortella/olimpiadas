@@ -24,7 +24,7 @@ function pesquisar() {
     titulo = dado.titulo.toLowerCase();
     descricao = dado.descricao.toLowerCase();
     tags = dado.tags.toLowerCase();
-    // se no dado.titulo incluir o campo de pesquisa, faça o código abaixo
+    // se o campo de pesquisa estiver preenchido pesquise por titulo, descrição ou tags
     if (
       titulo.includes(campoPesquisa) ||
       descricao.includes(campoPesquisa) ||
